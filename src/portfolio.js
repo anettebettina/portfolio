@@ -20,12 +20,12 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Hassan Mehdi",
-  title: "Hi, I'm Hassan",
+  username: "Anette Lavu",
+  title: "Hi, I'm Anette",
   subTitle: [
-    "I build and deploy AI features for production environments.",
-    "I work best when I have a clear direction and the freedom to find my own solutions. I draw inspiration from places like philosophy, nature, and patterns in everyday life and I bring that into how I solve problems. My manager at Rightware called me a mad genius, and I think that captures my personality well.",
-    "I was awarded a Gold Medal in my Bachelor's, which shows how seriously I take my work and the standard I hold myself to. If you are looking for someone who thinks differently and builds things that actually ship, I might be your person."
+    "I am a service manager with passion for problem solving and I thrive under pressure.",
+    "...",
+    "..."
   ],
   resumeLink:
     "https://drive.google.com/file/d/1cEe_pp0G07tnOVEU622JAqqqSYrPkL-t/view?usp=sharing",
