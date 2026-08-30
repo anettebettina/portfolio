@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/LoaderCat.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -20,12 +20,12 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Hassan Mehdi",
-  title: "Hi, I'm Hassan",
+  username: "Anette Lavu",
+  title: "Hi, I'm Anette",
   subTitle: [
-    "I build and deploy AI features for production environments.",
-    "I work best when I have a clear direction and the freedom to find my own solutions. I draw inspiration from places like philosophy, nature, and patterns in everyday life and I bring that into how I solve problems. My manager at Rightware called me a mad genius, and I think that captures my personality well.",
-    "I was awarded a Gold Medal in my Bachelor's, which shows how seriously I take my work and the standard I hold myself to. If you are looking for someone who thinks differently and builds things that actually ship, I might be your person."
+    "I am IT professional with hint of nerdiness and sense of humor. I am passionate about continous improvement, effiency and seeing results rather than just talking about them.",
+    "As a service manager with passion for problem solving I thrive under pressure. I am capable of quick decision making when needed. I don't hesitate to demand nor take necessary action in order to accomplish the target I am working for.",
+    "I could say, I am very easy to work with - as long as things are done as agreed on time. When things starts to fall apart, I will organize a solution or workaround to keep service or project running."
   ],
   resumeLink:
     "https://drive.google.com/file/d/1cEe_pp0G07tnOVEU622JAqqqSYrPkL-t/view?usp=sharing",
@@ -33,58 +33,39 @@ const greeting = {
 };
 
 
-
-
 // Skills Section
 
 const skillsSection = {
-  title: "What I Build",
+  title: "Core Skills & Tools",
   subTitle:
-    "My core stack spans ML model development and deployment, computer vision pipelines, and backend engineering. I work across the full lifecycle from raw data to production.",
+    "I have strong professional experience from identity and access management mainly on Saviynt SaaS Platform as a project manager and as a service manager. I have been part of ramping up IAM service as well as migration project.",
   skills: [
     emoji(
-      "I train and deploy computer vision models for real production environments. Object detection, image classification, OCR pipelines. I have shipped all of these into live products."
+      "I work with key users like application owners, suppliers and other IT stakeholders in close co-operation understanding organizations needs and molding them into practical solutions. I have been designing, building and running training sessions, materials and even aligning companies IAM policies."
     ),
     emoji(
-      "I build backend APIs and services in Python using FastAPI and Flask. Clean, documented, production-ready."
+      "Identity and Access Management (IAM) is my passion and I am fully committed to ensure security through risk management, access reviews, reconsiliation as well as following least-privileged principal. "
     ),
-    emoji(
-      "I design data pipelines and manage SQL databases to support ML workflows, multi-tenant platforms, and analytics."
-    ),
-    emoji(
-      "When the project needs it, I contribute across the full stack using React, TypeScript, and Node.js."
-    )
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    // AI / ML / CV
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "PyTorch", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-brain" },
-    { skillName: "OpenCV", fontAwesomeClassname: "fas fa-camera" },
-    { skillName: "YOLO", fontAwesomeClassname: "fas fa-crosshairs" },
-    { skillName: "scikit-learn", fontAwesomeClassname: "fas fa-robot" },
-    { skillName: "HuggingFace", fontAwesomeClassname: "fas fa-smile" },
-    { skillName: "Ollama", fontAwesomeClassname: "fas fa-server" },
-
-    // Backend
-    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-bolt" },
-    { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-
-    // Full Stack / Frontend
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js" },
-    { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-
-    // Tools & Environments
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "Linux / Bash", fontAwesomeClassname: "fas fa-terminal" }
+    // Tools
+    { skillName: "Saviynt", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "ServiceNow", fontAwesomeClassname: "fas fa-fire" },
+    { skillName: "Microsoft Entra ID & AD", fontAwesomeClassname: "fas fa-brain" },
+    { skillName: "Confluence & Jira", fontAwesomeClassname: "fas fa-camera" },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-crosshairs" },
+    { skillName: "AI tools and soft scripting", fontAwesomeClassname: "fas fa-robot" },
+    { skillName: "Happy Signals", fontAwesomeClassname: "fas fa-smile" },
+  
+    // Skills
+    { skillName: "Service Management", fontAwesomeClassname: "fas fa-bolt" },
+    { skillName: "Project Management", fontAwesomeClassname: "fas fa-flask" },
+    { skillName: "Vendor Management", fontAwesomeClassname: "fab fa-docker" },
   ],
   display: true
 };
@@ -95,20 +76,20 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "AI, Machine Learning & Deep Learning (PyTorch, TensorFlow, scikit-learn)",
-      progressPercentage: "82%"
+      Stack: "Identity Governance & Administration (Saviynt IGA, RBAC, Access Certification)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Computer Vision (YOLO, OpenCV, OCR)",
+      Stack: "Service & Vendor Management (ServiceNow, multi-vendor delivery)",
       progressPercentage: "88%"
     },
     {
-      Stack: "Backend Development (Python, FastAPI, Flask)",
-      progressPercentage: "78%"
+      Stack: "Compliance & Risk (ISO 27001, GDPR, Access Reviews)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Full-Stack Development (Node.js, TypeScript, React)",
-      progressPercentage: "60%"
+      Stack: "Stakeholder Communication & Training",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false
@@ -120,30 +101,29 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "AI Engineer Trainee – Helsinki, Finland",
-      company: "Rightware Oy",
-      companylogo: require("./assets/images/rightwareLogo.png"),
-      date: "April 2025 – August 2025",
-      desc: "Rightware builds Kanzi, one of the world's leading automotive HMI platforms, used by major car manufacturers globally. I spent the summer shipping production AI features directly into that product.",
+      role: "IAM Service Manager",
+      company: "Valmet",
+      companylogo: require("./assets/images/valmetLogo.png"),
+      date: "2021 - Present",
+      desc: "I own the strategy, roadmap, and day-to-day development of Valmet's Saviynt IGA platform, across our full identity estate of 20,000 employees and 10,000 external users, 300+ applications, and over a million access rights.",
       descBullets: [
-        "Object Detection: Improved object detection accuracy from 64% to 83% by migrating from YOLOv7-small to YOLOX-medium with custom dataset augmentation, while keeping real-time inference at ~30fps. The migration also resolved a licensing conflict, making the feature commercially viable for Rightware's clients.",
-        "LLM Interface: Built a locally hosted LLM feature via Ollama that let designers make project changes in plain English, removing the need to manually navigate Kanzi's UI for common tasks.",
-        "Font Recognition: Built a font classification pipeline trained on 30,000 synthetic images from Google's top 500 font library. Used a modified ResNet50 to achieve 68% accuracy on real-world gauge cluster images, the first automated font recognition feature at Rightware. Combined with EasyOCR for full text extraction.",
-        "Layout Adaptation: Designed a resolution adaptation tool using KiwiSolver that recursively parsed and adjusted all UI elements in Kanzi project files, reducing a full day of manual redesign work to approximately 3 seconds.",
-        "Collaboration: Worked with 2 senior engineers to deliver these core commercial features I developed. Presented production-ready features to client stakeholders alongside the CEO."
+        "Own service delivery as a managed service in a multi-vendor environment: a 5-person ServiceNow team plus ~10 additional subcontractors, handling around 200 incident tickets and 60 service requests a month. I shape how the process works and refine it until it's fully optimized, stepping in personally on the toughest issues.",
+        "Designed and rolled out company-wide access review campaigns, business by business, recovering 10%+ of standing access and an estimated €500K in savings.",
+        "Hold full accountability for an annual IAM budget of €600-700K.",
+        "Raised end-user satisfaction from 60 to 80 in HappySignals over three years.",
+        "Train application owners and stakeholders directly, speak publicly on IAM including a talk at a Whitehall Media conference in the Netherlands to 200+ attendees, and run our internal IAM news site on SharePoint plus the ServiceNow knowledge base.",
+        "Led IAM through multiple M&A integrations, working closely with HR and the business to react fast as needs changed, so new employees had correct access from day one."
       ]
     },
     {
-      role: "Backend & AI Engineer – Remote, Ukraine",
-      company: "Ri Software (Startup)",
-      companylogo: require("./assets/images/riLogo.jpeg"),
-      date: "April 2023 – February 2024",
-      desc: "Ri-Software was an early-stage startup building an AI-driven business management platform for small businesses, covering sales forecasting, inventory management, HR automation, and ROI tracking.",
+      role: "IAM Project Specialist",
+      company: "Valmet",
+      companylogo: require("./assets/images/valmetLogo.png"),
+      date: "2020 - 2021",
+      desc: "Hired to lead migration of every application off Valmet's legacy IGA platform onto Saviynt, taking ownership of the initiative within three months.",
       descBullets: [
-        "Platform Development: Built backend architecture and REST APIs in Python and Flask, serving 50 beta clients across sales, inventory, HR automation, and ROI tracking.",
-        "ML Integration: Trained and integrated ML models for monthly and seasonal sales forecasting, inventory demand planning, and employee productivity scoring.",
-        "Data Pipelines: Built data processing pipelines using Pandas, NumPy, and SciPy. Designed and maintained PostgreSQL schemas to support multi-tenant business data across beta clients.",
-        "Frontend Collaboration: Integrated backend features into the React and TypeScript frontend, including new sales analytics dashboards and real-time messaging sections."
+        "Built the migration framework that let me move 150+ applications in a year and a half without losing pace.",
+        "Laid the groundwork the current 300-application platform still runs on."
       ]
     }
   ]
@@ -158,30 +138,13 @@ const educationInfo = {
     {
       schoolName: "University of Jyväskylä",
       logo: require("./assets/images/jyuLogo.png"),
-      subHeader: "Master of Science in Artificial Intelligence",
-      duration: "September 2024 – July 2026",
-      desc: "Completed my MSc in Artificial Intelligence on a merit-based JYU scholarship. My thesis was part of the AI4Hope project in collaboration with the University of Turku, and received funding from the Shanghai Sci-tech Co-research Program.",
-      descBullets: [
-        "Thesis: Evaluated ML model performance across clinical PSG and wearable sleep data using TSFEL feature extraction and SHAP interpretability analysis.",
-        "Studied advanced Machine Learning, Deep Learning, Computer Vision, and NLP.",
-        "Collaborated with researchers at the University of Turku on a funded international research project."
-      ]
-    },
-    {
-      schoolName: "IQRA National University",
-      logo: require("./assets/images/inuLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "February 2019 – February 2023",
-      desc: "Graduated as the top student in my batch with a CGPA of 3.78/4.0 and was awarded a Gold Medal for it.",
-      descBullets: [
-        "Studied core CS fundamentals including algorithms, data structures, AI, data mining, and software engineering.",
-        "Built a real-time driver drowsiness and lane deviation detection system as my thesis, using YOLO and OpenCV.",
-        "Developed a strong foundation in image processing, system design, and human-computer interaction."
-      ]
+      subHeader: "M.Sc. Mathematical Information Technology",
+      duration: "Graduated 2019",
+      desc: "Completed my Master's degree in Mathematical Information Technology at the University of Jyväskylä.",
+      descBullets: []
     }
   ]
 };
-
 
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -199,41 +162,38 @@ const bigProjects = {
   subtitle: "Things I built that I am proud of.",
   projects: [
     {
-      projectName: "MSc Thesis, Sleep Staging Research (AI4Hope Project)",
+      projectName: "Legacy IGA to Saviynt Migration",
       projectDesc:
-        "My MSc thesis was part of the AI4Hope project, running in collaboration with the University of Turku and funded by the Shanghai Sci-tech Co-research Program. The goal was to evaluate how well ML models perform when trained on clinical sleep data and tested on wearable device data, and whether feature reduction and harmonization could bridge that gap.",
+        "Hired at Valmet to lead the migration of every application off our legacy IGA system onto Saviynt. I took ownership of the initiative within three months and built the migration framework that carried it through.",
       projectHighlights: [
-        "Built a four-class sleep staging pipeline (AWAKE, LIGHT, DEEP, REM) using MESA and TIHM datasets.",
-        "Used TSFEL for time-series feature extraction across multiple physiological signal channels.",
-        "Applied SHAP interpretability analysis to identify which features actually drove model decisions across datasets.",
-        "Evaluated model generalization across clinical PSG and wearable IoT data, two very different data environments."
+        "Migrated 150+ applications in a year and a half without losing pace.",
+        "Built the framework the current 300-application platform still runs on today."
       ],
-      techStack: ["Python", "TSFEL", "scikit-learn", "SHAP", "Pandas", "NumPy", "Matplotlib"],
+      techStack: ["Saviynt (IGA)", "RBAC Design", "Access Certification"],
       footerLink: []
     },
     {
-      projectName: "ImageUpLift, AI Image Enhancer and Converter",
+      projectName: "Company-Wide Access Review Campaign Program",
       projectDesc:
-        "A personal project I built to solve a real problem, turning low-quality sketches and images into clean, high-resolution or vector outputs. Users can upload an image, pick a mode (enhance, vectorize, or outline), preview the result, and track their conversion history.",
-      techStack: ["FastAPI", "ESRGAN", "OpenCV", "CLIP", "React", "Docker"],
-      footerLink: [
-        {
-          name: "GitHub Repository",
-          url: "https://github.com/DevHassanMehdi/ImageUpLift"
-        }
-      ]
+        "Designed and rolled out company-wide access review campaigns at Valmet, business by business, to bring standing access back under control.",
+      projectHighlights: [
+        "Recovered 10%+ of standing access across the organization.",
+        "Delivered an estimated €500K in annual savings."
+      ],
+      techStack: ["Saviynt (IGA)", "Access Reviews", "ISO 27001", "GDPR"],
+      footerLink: []
     },
     {
-      projectName: "Driving Negligence Dissuader System (DNDS)",
+      projectName: "ServiceNow Support & Process Optimization",
       projectDesc:
-        "My Bachelor's thesis project, which received a 4/4 grade. A real-time computer vision system that monitors driver drowsiness through facial landmark tracking, detects lane deviation, and identifies nearby vehicles, animals, and pedestrians using YOLO. When risk is detected, the system alerts the driver immediately.",
-      techStack: ["Python", "YOLO", "OpenCV", "TensorFlow", "DLib", "Haar Cascades", "Raspberry Pi"],
-      footerLink: [
-        {
-          name: "GitHub Repository",
-          url: "https://github.com/DevHassanMehdi/Driving_Negligence_Dissuader_System"
-        }
-      ]
+        "Own service delivery as a managed service in a multi-vendor environment at Valmet, leading a 5-person ServiceNow team plus around 10 additional subcontractors.",
+      projectHighlights: [
+        "Handle around 200 incident tickets and 60 service requests a month.",
+        "Raised end-user satisfaction from 60 to 80 in HappySignals over three years.",
+        "Shape how the process works and refine it until it's fully optimized, stepping in personally on the toughest issues."
+      ],
+      techStack: ["ServiceNow", "Jira", "Confluence", "Vendor Management"],
+      footerLink: []
     }
   ],
   display: true
@@ -244,81 +204,24 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Recognitions and Accomplishments"),
-  subtitle: "A curated collection of my key awards, publications, and certifications.",
+  subtitle: "A few of my key certifications and milestones.",
 
   achievementsCards: [
     {
-      title: "Research Publication, IEEE PIC 2024",
-      subtitle: "Fuzzy-Based Atrous Convolution for Brain Tumor Detection Using MRI",
-      image: require("./assets/images/ieeeLogo.png"),
-      imageAlt: "IEEE Logo",
-      footerLink: [
-        {
-          name: "View Paper",
-          url: "https://ieeexplore.ieee.org/document/10892686"
-        }
-      ],
-      desc: "I co-authored this paper with researchers from the University of Turku the University of Sydney. We proposed a custom neural architecture combining fuzzy logic with dilated convolutions to extract features from MRI scans. The model achieved 98.8 to 99.7% classification accuracy while reducing trainable parameters. Published at IEEE PIC 2024."
-    },
-    {
-      title: "International Research Funding",
-      subtitle: "Shanghai Sci-tech Co-research Program, Project No. 25HB2703300",
-      image: require("./assets/images/jyuLogo.png"),
-      imageAlt: "JYU Logo",
+      title: "Saviynt L100 Certification",
+      subtitle: "Platform Certification, Saviynt",
+      image: require("./assets/images/saviyntLogo.png"),
+      imageAlt: "Saviynt Logo",
       footerLink: [],
-      desc: "My MSc thesis received external funding from the Shanghai Sci-tech Co-research Program as part of the AI4Hope project. The funding supported my research on ML model evaluation across clinical and wearable sleep data, in collaboration with the University of Turku."
+      desc: "Certified on the Saviynt IGA platform, the identity governance system I've built and run Valmet's IAM function on since 2020."
     },
     {
-      title: "JYU Scholarship Award",
-      subtitle: "Merit-based Scholarship, University of Jyväskylä, Finland",
-      image: require("./assets/images/jyuLogo.png"),
-      imageAlt: "JYU Scholarship Logo",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1pdotUcegOjTFgrutM_838y84hTkvPJsD/view?usp=sharing"
-        }
-      ],
-      desc: "I received a scholarship from the University of Jyväskylä for strong academic performance and demonstrated potential in the MSc Artificial Intelligence program. Competitive award granted to a small number of incoming students each year."
-    },
-    {
-      title: "Gold Medal, Top Graduate",
-      subtitle: "Highest CGPA in the Bachelor's Program, Iqra National University",
-      image: require("./assets/images/goldmedalLogo.png"),
-      imageAlt: "Gold Medal Logo",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1IZjJ9BccqxCm_dp_mNp8mLxok8LDVL3W/view?usp=sharing"
-        }
-      ],
-      desc: "I was awarded a Gold Medal for securing the highest CGPA of 3.78/4.0 across my entire Computer Science graduating cohort. Four years of consistent academic performance across every subject in the program."
-    },
-    {
-      title: "Microsoft Azure Developer Associate",
-      subtitle: "Cloud Certification, Microsoft",
-      image: require("./assets/images/azureLogo.png"),
-      imageAlt: "Azure Certification Logo",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1gH1zb16ms7QoS4glPHcJ24xLV8L5Rhy0/view?usp=sharing"
-        }
-      ],
-      desc: "I am also certified in Azure cloud services covering app development, deployment workflows, and CI/CD pipelines. Relevant to ML model deployment and cloud-based backend development, which I have applied in production projects."
-    },
-    {
-      title: "Degree Tutor, University of Jyväskylä",
-      subtitle: "Mentor for International Students",
-      image: require("./assets/images/jyyLogo.png"),
-      imageAlt: "University of Jyväskylä Logo",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1yuB4AV57TvEVZmWnvMf4oCDZ-vxqWIPK/view?usp=sharing"
-        }
-      ],
-      desc: "I was selected to serve as a degree tutor for incoming international students at JYU, to support their academic and social integration. This experience gave me training on group leadership and intercultural communication."
+      title: "ITIL 4 Foundation",
+      subtitle: "Service Management Certification",
+      image: require("./assets/images/itilLogo.png"),
+      imageAlt: "ITIL Logo",
+      footerLink: [],
+      desc: "Certified in ITIL 4, underpinning how I run IAM as a managed service, from incident handling to continual process improvement."
     }
   ],
   display: true
@@ -328,23 +231,9 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true",
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
+  subtitle: "",
+  displayMediumBlogs: "false",
+  blogs: [],
   display: false
 };
 
@@ -352,15 +241,13 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  subtitle: "Sharing what I've learned about running IAM as a real, working service.",
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Whitehall Media Conference Talk",
+      subtitle: "Netherlands, 200+ attendees",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: false
@@ -370,34 +257,30 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
+  subtitle: "",
+  podcast: [],
   display: false
 };
 
 const contactInfo = {
   title: emoji("Get in Touch 📬"),
   subtitle:
-    "I am currently looking for AI and ML engineering roles in Finland. If you have an opportunity or just want to connect, my inbox is open.",
-  email_address: "itshmehdi@gmail.com"
+    "I am currently curious about opportunities to grow and ready to take new challenges. I am open for IAM architect, owner or team lead positions.",
+  email_address: "anette.lavu@live.fi"
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  gmail: "itshmehdi@gmail.com",
-  github: "https://github.com/DevHassanMehdi",
-  linkedin: "https://www.linkedin.com/in/devhassanmehdi/",
-  kaggle: "https://www.kaggle.com/devhassan",
+  gmail: "anette.lavu@live.fi",
+  linkedin: "https://www.linkedin.com/in/anette-lavu/",
   display: true
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "devhassanmehdi",
+  userName: "",
   display: false
 };
 
