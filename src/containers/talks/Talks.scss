@@ -6,11 +6,11 @@
   line-height: 0px;
 }
 
-/* A talk's video with its caption underneath, centred as one column */
+/* A talk's video with its caption underneath, flush left like other sections */
 .talk-entry {
   width: fit-content;
   max-width: 100%;
-  margin: 2rem auto 0;
+  margin: 2rem 0 0;
 }
 
 .talk-entry-title {
@@ -29,6 +29,10 @@
 }
 
 @media (max-width: 768px) {
+  /* Small screens centre headings site-wide, so centre the video with them */
+  .talk-entry {
+    margin: 2rem auto 0;
+  }
   .talk-entry-title {
     font-size: 22px;
     text-align: center;
