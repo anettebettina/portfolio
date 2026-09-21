@@ -23,12 +23,11 @@ const greeting = {
   username: "Anette Lavu",
   title: "Hi, I'm Anette",
   subTitle: [
-    "I am IT professional with hint of nerdiness and sense of humor. I am passionate about continous improvement, effiency and seeing results rather than just talking about them.",
-    "As a service manager with passion for problem solving I thrive under pressure. I am capable of quick decision making when needed. I don't hesitate to demand nor take necessary action in order to accomplish the target I am working for.",
-    "I could say, I am very easy to work with - as long as things are done as agreed on time. When things starts to fall apart, I will organize a solution or workaround to keep service or project running."
+    "I am IT professional with hint of nerdiness and sense of humor. As a service manager with passion for problem solving I thrive under pressure. I am capable of quick decision making when needed. I don't hesitate to demand nor take necessary action in order to accomplish the target I am working for.",
+    "The last six years have taught me a lot about building and running an IAM service, from IGA migration and implementation to M&A's, vendor and company structure changes, and carve-out planning. I've learned to prioritize and see the big picture: where a decision leads, and what the benefits and risks are for the company. I'm growing into an architect or leader in IAM, someone who isn't afraid of challenges and looks for solutions that benefit the business, while creating value through security and compliance."
   ],
   resumeLink:
-    "https://drive.google.com/file/d/1cEe_pp0G07tnOVEU622JAqqqSYrPkL-t/view?usp=sharing",
+    "https://drive.google.com/file/d/1CX_RzzcSThBuaJS7syr5j8PjdS1yt7wi/view",
   displayGreeting: true
 };
 
@@ -44,7 +43,7 @@ const skillsSection = {
       "I work with key users like application owners, suppliers and other IT stakeholders in close co-operation understanding organizations needs and molding them into practical solutions. I have been designing, building and running training sessions, materials and even aligning companies IAM policies."
     ),
     emoji(
-      "Identity and Access Management (IAM) is my passion and I am fully committed to ensure security through risk management, access reviews, reconsiliation as well as following least-privileged principal. "
+      "Identity and Access Management (IAM) is my passion and I am fully committed to ensure security through risk management, access reviews, reconciliation as well as following least-privileged principle."
     ),
 
   ],
@@ -54,18 +53,18 @@ const skillsSection = {
 
   softwareSkills: [
     // Tools
-    { skillName: "Saviynt", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "ServiceNow", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "Microsoft Entra ID & AD", fontAwesomeClassname: "fas fa-brain" },
-    { skillName: "Confluence & Jira", fontAwesomeClassname: "fas fa-camera" },
-    { skillName: "Power BI", fontAwesomeClassname: "fas fa-crosshairs" },
+    { skillName: "Saviynt", fontAwesomeClassname: "fas fa-user-shield" },
+    { skillName: "ServiceNow", fontAwesomeClassname: "fas fa-headset" },
+    { skillName: "Microsoft Entra ID & AD", fontAwesomeClassname: "fas fa-id-badge" },
+    { skillName: "Confluence & Jira", fontAwesomeClassname: "fas fa-comments" },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-line" },
     { skillName: "AI tools and soft scripting", fontAwesomeClassname: "fas fa-robot" },
     { skillName: "Happy Signals", fontAwesomeClassname: "fas fa-smile" },
   
     // Skills
-    { skillName: "Service Management", fontAwesomeClassname: "fas fa-bolt" },
-    { skillName: "Project Management", fontAwesomeClassname: "fas fa-flask" },
-    { skillName: "Vendor Management", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Service Management", fontAwesomeClassname: "fas fa-concierge-bell" },
+    { skillName: "Project Management", fontAwesomeClassname: "fas fa-project-diagram" },
+    { skillName: "Vendor Management", fontAwesomeClassname: "fas fa-handshake" },
   ],
   display: true
 };
@@ -112,7 +111,10 @@ const workExperiences = {
         "Hold full accountability for an annual IAM budget of €600-700K.",
         "Raised end-user satisfaction from 60 to 80 in HappySignals over three years.",
         "Train application owners and stakeholders directly, speak publicly on IAM including a talk at a Whitehall Media conference in the Netherlands to 200+ attendees, and run our internal IAM news site on SharePoint plus the ServiceNow knowledge base.",
-        "Led IAM through multiple M&A integrations, working closely with HR and the business to react fast as needs changed, so new employees had correct access from day one."
+        "Led IAM through multiple M&A integrations, onboarding up to 4,000 identities within hours, and supported HR and the business through major organizational change, shaping what data and process changes were needed to protect continuity.",
+        "Built the disaster recovery plan for the entire IGA platform.",
+        "Negotiate pricing and lead partner renewals, including planning and leading a full vendor transition, from selection through team handover.",
+        "Currently planning carve-out scenarios for the IGA platform in case of an organizational split."
       ]
     },
     {
@@ -213,7 +215,7 @@ const achievementSection = {
       image: require("./assets/images/saviyntLogo.png"),
       imageAlt: "Saviynt Logo",
       footerLink: [],
-      desc: "Certified on the Saviynt IGA platform, the identity governance system I've built and run Valmet's IAM function on since 2020."
+      desc: "Certified on Saviynt, the IGA platform I've built and run Valmet's IAM function on since 2020."
     },
     {
       title: "ITIL 4 Foundation",
@@ -221,7 +223,7 @@ const achievementSection = {
       image: require("./assets/images/itilLogo.png"),
       imageAlt: "ITIL Logo",
       footerLink: [],
-      desc: "Certified in ITIL 4, underpinning how I run IAM as a managed service, from incident handling to continual process improvement."
+      desc: "Certified in ITIL 4, which shapes how I run IAM as a managed service, from incident handling to continual process improvement."
     }
   ],
   display: true
