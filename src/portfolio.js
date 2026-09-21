@@ -23,8 +23,9 @@ const greeting = {
   username: "Anette Lavu",
   title: "Hi, I'm Anette",
   subTitle: [
-    "I am IT professional with hint of nerdiness and sense of humor. As a service manager with passion for problem solving I thrive under pressure. I am capable of quick decision making when needed. I don't hesitate to demand nor take necessary action in order to accomplish the target I am working for.",
-    "The last six years have taught me a lot about building and running an IAM service, from IGA migration and implementation to M&A's, vendor and company structure changes, and carve-out planning. I've learned to prioritize and see the big picture: where a decision leads, and what the benefits and risks are for the company. I'm growing into an architect or leader in IAM, someone who isn't afraid of challenges and looks for solutions that benefit the business, while creating value through security and compliance."
+    "I am a service manager with passion for problem solving and I thrive under pressure.",
+    "...",
+    "..."
   ],
   resumeLink:
     "https://drive.google.com/file/d/1CX_RzzcSThBuaJS7syr5j8PjdS1yt7wi/view",
