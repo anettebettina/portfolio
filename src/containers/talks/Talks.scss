@@ -6,10 +6,22 @@
   line-height: 0px;
 }
 
-.talk-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+/* A talk's video with its caption underneath, centred as one column */
+.talk-entry {
+  width: fit-content;
+  max-width: 100%;
+  margin: 2rem auto 0;
+}
+
+.talk-entry-title {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.talk-entry-subtitle {
+  margin: 0;
+  font-size: 18px;
 }
 
 .subTitle {
@@ -17,6 +29,14 @@
 }
 
 @media (max-width: 768px) {
+  .talk-entry-title {
+    font-size: 22px;
+    text-align: center;
+  }
+  .talk-entry-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
   .talk-header-title {
     font-size: 30px;
     text-align: center;

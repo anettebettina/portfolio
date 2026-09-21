@@ -249,10 +249,11 @@ const talkSection = {
       title: "Whitehall Media Conference Talk",
       subtitle: "Netherlands, 200+ attendees",
       slides_url: "",
-      event_url: ""
+      event_url: "",
+      video_id: "TvcboQR8A6o"
     }
   ],
-  display: false
+  display: true
 };
 
 // Podcast Section

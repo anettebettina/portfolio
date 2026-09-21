@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import "./Talks.scss";
-import TalkCard from "../../components/talkCard/TalkCard";
+import VideoPlayer from "../../components/videoPlayer/VideoPlayer";
 import {talkSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
@@ -26,17 +26,21 @@ export default function Talks() {
           </p>
           {talkSection.talks.map((talk, i) => {
             return (
-              <TalkCard
-                key={i}
-                talkDetails={{
-                  title: talk.title,
-                  subtitle: talk.subtitle,
-                  slides_url: talk.slides_url,
-                  event_url: talk.event_url,
-                  image: talk.image,
-                  isDark
-                }}
-              />
+              <div key={i} className="talk-entry">
+                {talk.video_id && (
+                  <VideoPlayer videoId={talk.video_id} title={talk.title} />
+                )}
+                <h2 className="talk-entry-title">{talk.title}</h2>
+                <p
+                  className={
+                    isDark
+                      ? "dark-mode talk-entry-subtitle"
+                      : "subTitle talk-entry-subtitle"
+                  }
+                >
+                  {talk.subtitle}
+                </p>
+              </div>
             );
           })}
         </div>
