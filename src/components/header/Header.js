@@ -34,7 +34,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="https://devhassanmehdi.github.io/portfolio/" className="logo">
+        <a href="https://anettebettina.github.io/portfolio/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
