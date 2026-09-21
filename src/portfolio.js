@@ -276,7 +276,7 @@ const contactInfo = {
 
 const socialMediaLinks = {
   gmail: "anette.lavu@live.fi",
-  linkedin: "https://www.linkedin.com/in/anette-lavu/",
+  linkedin: "https://www.linkedin.com/in/anettelavu/",
   display: true
 };
 
